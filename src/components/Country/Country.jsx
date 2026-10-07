@@ -26,7 +26,7 @@ const Country = ({ country }) => {
         {languages.length > 1 ? (
           <div>
             <p>Languages:</p>
-            <ul>
+            <ul className="display-name" >
               {languages.map((language) => (
                 <li key={language}>{language}</li>
               ))}
