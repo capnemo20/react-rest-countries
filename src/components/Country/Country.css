@@ -1,0 +1,17 @@
+.country {
+  position: relative;
+  border: 2px solid rgb(126, 64, 26);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.flag {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  height: 30px;
+  width: 30px;
+  justify-content: end;
+  text-align: end;
+}
